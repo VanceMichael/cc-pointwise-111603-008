@@ -1,0 +1,20 @@
+[
+  {
+    "sourceId": "meter-readings-demo-1",
+    "source": "sample-source",
+    "observedAt": "2026-11-16T09:00:00Z",
+    "label": "电表读数",
+    "attributes": {
+      "sample": true
+    }
+  },
+  {
+    "sourceId": "meter-readings-demo-2",
+    "source": "sample-source",
+    "observedAt": "2026-11-16T09:05:00Z",
+    "label": "电表读数 2",
+    "attributes": {
+      "sample": true
+    }
+  }
+]
