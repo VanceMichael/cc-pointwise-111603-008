@@ -1,20 +1,17 @@
 [
   {
-    "sourceId": "meter-readings-demo-1",
-    "source": "sample-source",
-    "observedAt": "2026-11-16T09:00:00Z",
-    "label": "电表读数",
+    "sourceId": "r1",
+    "source": "园区电表读数台账",
+    "observedAt": "2026-11-16T08:00:00Z",
+    "label": "M1",
     "attributes": {
-      "sample": true
-    }
-  },
-  {
-    "sourceId": "meter-readings-demo-2",
-    "source": "sample-source",
-    "observedAt": "2026-11-16T09:05:00Z",
-    "label": "电表读数 2",
-    "attributes": {
-      "sample": true
+      "readingId": "r1",
+      "meterId": "M1",
+      "measuredAt": "2026-11-16T08:00:00Z",
+      "receivedAt": "2026-11-16T08:00:00Z",
+      "register": 100,
+      "epoch": "installed-1",
+      "unit": "kWh"
     }
   }
 ]

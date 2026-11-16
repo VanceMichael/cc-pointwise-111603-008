@@ -1,0 +1,12 @@
+[
+  {
+    "interval": "08:00/09:00",
+    "meterId": "M1",
+    "readingIds": [
+      "r1",
+      "r3"
+    ],
+    "value": 14,
+    "state": "confirmed"
+  }
+]

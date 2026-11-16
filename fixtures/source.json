@@ -1,0 +1,72 @@
+{
+  "stages": {
+    "opening": {
+      "routes": {
+        "/meters/M1/readings": {
+          "contentType": "application/json",
+          "body": {
+            "items": [
+              {
+                "readingId": "r1",
+                "meterId": "M1",
+                "measuredAt": "2026-11-16T08:00:00Z",
+                "receivedAt": "2026-11-16T08:00:00Z",
+                "register": 100,
+                "epoch": "installed-1",
+                "unit": "kWh"
+              }
+            ],
+            "next": null
+          },
+          "etag": "\"opening\""
+        },
+        "/meters/M1/latest": {
+          "contentType": "application/json",
+          "body": {
+            "readingId": "r3",
+            "meterId": "M1",
+            "measuredAt": "2026-11-16T09:00:00Z",
+            "receivedAt": "2026-11-16T09:00:00Z",
+            "register": 114,
+            "epoch": "installed-1",
+            "unit": "kWh"
+          }
+        }
+      }
+    },
+    "updated": {
+      "routes": {
+        "/meters/M1/readings": {
+          "contentType": "application/json",
+          "body": {
+            "items": [
+              {
+                "readingId": "r2",
+                "meterId": "M1",
+                "measuredAt": "2026-11-16T08:30:00Z",
+                "receivedAt": "2026-11-16T09:00:00Z",
+                "register": 106,
+                "epoch": "installed-1",
+                "unit": "kWh"
+              }
+            ],
+            "next": null
+          },
+          "etag": "\"updated\""
+        },
+        "/meters/M1/latest": {
+          "contentType": "application/json",
+          "body": {
+            "readingId": "r3",
+            "meterId": "M1",
+            "measuredAt": "2026-11-16T09:00:00Z",
+            "receivedAt": "2026-11-16T09:00:00Z",
+            "register": 114,
+            "epoch": "installed-1",
+            "unit": "kWh"
+          }
+        }
+      }
+    }
+  }
+}
