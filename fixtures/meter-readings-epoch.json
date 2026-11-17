@@ -1,0 +1,20 @@
+[
+  {
+    "readingId": "r4",
+    "meterId": "M1",
+    "measuredAt": "2026-11-16T09:30:00Z",
+    "receivedAt": "2026-11-16T09:30:00Z",
+    "register": 5,
+    "epoch": "installed-2",
+    "unit": "kWh"
+  },
+  {
+    "readingId": "r5",
+    "meterId": "M1",
+    "measuredAt": "2026-11-16T10:00:00Z",
+    "receivedAt": "2026-11-16T10:00:00Z",
+    "register": 11,
+    "epoch": "installed-2",
+    "unit": "kWh"
+  }
+]

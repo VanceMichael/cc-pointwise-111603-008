@@ -1,0 +1,47 @@
+[
+  {
+    "readingId": "s1",
+    "meterId": "M2",
+    "measuredAt": "2026-11-16T08:00:00Z",
+    "receivedAt": "2026-11-16T08:00:00Z",
+    "register": 50,
+    "epoch": "epoch-a",
+    "unit": "kWh"
+  },
+  {
+    "readingId": "s2",
+    "meterId": "M2",
+    "measuredAt": "2026-11-16T09:00:00Z",
+    "receivedAt": "2026-11-16T09:00:00Z",
+    "register": 60,
+    "epoch": "epoch-a",
+    "unit": "kWh"
+  },
+  {
+    "readingId": "s3",
+    "meterId": "M2",
+    "measuredAt": "2026-11-16T10:00:00Z",
+    "receivedAt": "2026-11-16T10:00:00Z",
+    "register": 40,
+    "epoch": "epoch-b",
+    "unit": "kWh"
+  },
+  {
+    "readingId": "s4",
+    "meterId": "M2",
+    "measuredAt": "2026-11-16T11:00:00Z",
+    "receivedAt": "2026-11-16T11:00:00Z",
+    "register": 45,
+    "epoch": "epoch-b",
+    "unit": "kWh"
+  },
+  {
+    "readingId": "s5",
+    "meterId": "M2",
+    "measuredAt": "2026-11-16T11:30:00Z",
+    "receivedAt": "2026-11-16T11:30:00Z",
+    "register": 44,
+    "epoch": "epoch-b",
+    "unit": "kWh"
+  }
+]
